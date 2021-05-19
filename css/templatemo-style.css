@@ -1001,3 +1001,13 @@ a {
 .second{
   padding: 2% 5% 5% 5%;
 }
+.tm-features .row .col-lg-4 .tm-feature .client__photo{
+  width: 150px;
+  height: 150px;
+  border: 2px solid grey;
+  border-radius: 100px;
+}
+.tm-section-title{
+  font-size: 25px;
+  color: grey;
+}

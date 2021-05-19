@@ -11,8 +11,6 @@
 </head>
 <body> 
 	<div class="container">
-	<!-- Top box -->
-		<!-- Logo & Site Name -->
 		<div class="placeholder">
 			<div class="parallax-window" data-parallax="scroll" data-image-src="img/7.jpg">
 			<div style="position: absolute; z-index:9999; width: 100%; display: flex; flex-direction: row; justify-content: space-around;" class="social">
@@ -21,8 +19,7 @@
 				<a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt=""></a>
 				<a href=""><img src="https://alumin.by/wp-content/uploads/2017/04/inst.png" alt=""></a>
 			</div>
-			    <h3 class="raspisanie" style=" color: aliceblue; font-weight: 400; font-size: 18px; margin: 3% 0 0 3%; left: 60%;">Работаем ежедневно с 9:00 до 20:00<br> +375 (29) 36486382 (МТС) <br>+375 (29) 37364863 (А1) </h3> 
-	
+			    <h3 class="raspisanie" style=" color: aliceblue; font-weight: 400; font-size: 18px; margin: 3% 0 0 3%; left: 60%;">Работаем ежедневно с 9:00 до 20:00<br> +375 (29) 36486382 (МТС) <br>+375 (29) 37364863 (А1) </h3>
 		</div>
 				<div class="tm-header">
 					<div class="row tm-header-inner">
@@ -59,7 +56,6 @@
 			<div class="row tm-gallery">
 				<!-- gallery page 1 -->
 				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
-				<!-- <a href="rosses.html" class="card"> -->
 					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 						<a href="rosses.html">
 						<figure>
@@ -72,8 +68,6 @@
 						</figure>
 					</a>
 					</article>
-				<!-- </a> -->
-						
 					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 					<a href="tulps.html"  q>
 						<figure>
@@ -400,9 +394,9 @@
 						</figure>
 					</article>
 				</a>
+				</div>
 			</div>
 		</main>
-
 		<footer class="tm-footer text-center">
 			<div class="footer__text">
 				<div class="footer__text-item">
@@ -434,14 +428,12 @@
 		</div>
 		</footer>
 	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/parallax.min.js"></script>
 	<script>
 		$(document).ready(function(){
 			// Handle click on paging links
 			$('.tm-paging-link').click(function(e){
 				e.preventDefault();
-				
+
 				var page = $(this).text().toLowerCase();
 				$('.tm-gallery-page').addClass('hidden');
 				$('#tm-gallery-page-' + page).removeClass('hidden');
@@ -450,6 +442,8 @@
 			});
 		});
 	</script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-2214909c.js"></script>
 		<link href="https://lk.easynetshop.ru/frontend/v5/ens-2214909c.css" rel="stylesheet">
